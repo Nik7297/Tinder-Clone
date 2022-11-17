@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* .tinderpage{
+   
+
+    
+} */
+
+header{
+    background: url("backgraund.jpg") no-repeat fixed center / cover;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: rgb(252, 252, 252);
+    
+
+}
+
+.logo{
+    
+    width: 200px;
+  margin-left: 5rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+header nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    opacity:  0.5;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.leftside{
+
+    display: flex;
+}
+
+.navbar li a{
+    
+    /* margin-top: 10px; */
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-size: x-large;
+
+    
+
+
+
+    
+}
+
+.navbar li{
+
+    padding: 10px 10px;
+    list-style: none;
+
+}
+
+.rightside h2{
+
+    display: flex;
+    margin: 0 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.wordtitlebar{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+
+.rightside{
+
+    margin-right: 10px;
+    
+    
+}
+
+.rightside a{
+
+    background-color: rgb(236, 38, 104);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    padding: 0 8px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.imageupcontent{
+
+    padding: 25rem 0;
+    font-size: 3rem;
+    color: darkorange;
+   
+}
+
+.imageupcontent h1{
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.imageupcontent h1:hover{
+    color: white;
+
+}
+
+.imageupcontent a{
+
+    text-decoration: none;
+    background-color: rgb(146, 0, 49);
+    padding: 0px 20px;
+    border-radius: 50px;
+    /* font-size: medium; */
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.imageupcontent a:hover{
+    background-color: #fff;
+    color: rgb(146, 0, 49);
+}
+
+.peragraf{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 2px 100px;
+
+}
+
+.box{
+
+    border: 2px solid rgb(152, 152, 152);
+    padding: 5px 10px;
+    margin: 5px 10px;
+    height: 20rem;
+    border-radius: 10px;
+
+}
+
+.box h2{
+
+    border-bottom: 2px solid rgb(141, 140, 140);
+    margin: 20px;
+    padding-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.box h2:hover{
+    color: dodgerblue;
+}
+
+.allpart{
+
+     margin: 10px 100px; 
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 20px;
+     border-bottom: 2px solid rgb(106, 101, 111);
+}
+
+.cpart li{
+
+    list-style: none;
+}
+
+.cpart ul li:hover{
+    color: brown;
+}
+
+.socialpart ul{
+
+    display: flex;
+    
+}
+
+.socialpart ul li{
+    padding: 0px 5px;
+    
+}
+
+.socialpart ul li a{
+
+    color: #000;
+    font-size: x-large;
+}
+
+.socialpart ul li a i:hover{
+    color: brown;
+    background-color: silver;
+}
+
+.cpart h2{
+
+    padding-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cpart h2:hover{
+    color: deepskyblue;
+}
+
+.cpart ul li{
+
+    padding-top: 10px;
+}
+
+.lastpera{
+    margin: 10px 100px;
+    border-bottom:2px solid  rgb(139, 127, 127);
+}
+
+.lastpera p{
+    padding-top: 20px;
+}
+
+.foot a{
+
+    text-decoration: none;
+    color: rgba(57, 54, 55, 0.91);
+    margin: 10px 100px;
+    font-size: large;
+
+    
+}
+
+.dropdown{
+
+    overflow: hidden;
+}
+
+
+
+
+
+.navbar li a{
+
+        position: relative;
+        
+}
+
+
+.drop{
+
+    position: absolute;
+    top: 50px;
+    position: absolute;
+    height: 0;
+    background-color: rgb(61, 57, 57);
+    overflow: hidden;
+     width: 130px;
+     transition-property: height,width,color;
+     transition-duration: 0.8s;
+    
+}
+
+.navbar li:hover .drop{
+    height: 250px;
+    width: 130px;
+    /* overflow: hidden; */
+    
+}
+
+.dropdown ul li a{
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown ul li a:hover{
+    color: rgb(253, 0, 236);
+}
+
+.rightside h2:hover i{
+    color: rgb(255, 255, 0);
+}
+
+.rightside h2:hover{
+    color: rgb(253, 0, 236);
+}
+
+.rightside a:hover{
+    background-color: rgb(240, 233, 236);
+    color: deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* header nav ul li ul{
+    display: none;
+    position: relative;
+    }
+
+    header nav ul li ul:hover a{
+    display: flex;
+
+
+    }
+
+    .drop{
+    position: absolute;
+    top:30px; */
+    /* left: 151px; */
+    /* flex-direction: column; */
+    /* padding: 7px ; */
+    /* overflow: hidden;
+    transition-property: overflow;
+    }  */
+
+    /* .navbar:nth-of-type(1) li a:hover .drop{
+
+    overflow: visible;
+    top: 100px;
+
+
+    }  */
